@@ -8,7 +8,17 @@ These instructions will get you a copy of the project up and urinning on your lo
 
 The options for FLAGS have been specified at the bottom of the `training.py` file.
 
-### Run the Task a) model by running.
+### Command.
+
+In order to run the Task a) model run.
 
 ```
 python training.py
+
+In order to run the Task b) model run.
+
+python training.py -
+
+In order to run the Task b) model run.
+
+
