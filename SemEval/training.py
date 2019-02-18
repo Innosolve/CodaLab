@@ -846,22 +846,22 @@ if __name__ == '__main__':
     parser.add_argument('-train_ratio', type=float,
                         default=1.0)  ### Take a ratio of train set, only with write_data TRUE ###
     parser.add_argument('-clean', action='store_false')  ### Clean the data ###
-    parser.add_argument('-elmo', action='store_false')  ### Include ELMo Embedding ###
+    parser.add_argument('-elmo', action='store_true')  ### Include ELMo Embedding ###
     parser.add_argument('-glove', action='store_false')  ### Include glove embedding ###
     parser.add_argument('-model_dir', type=str, default='graphs')  ### Model Directory ###
     parser.add_argument('-name', type=str, default='default_name')  ### Graph name ###
     parser.add_argument('-attention', action='store_false')  ### Include attention ###
     parser.add_argument('-attention_vectors', type=int, default=20)  ### REDUNDENT ###
     parser.add_argument('-mask', action='store_false')  ### Mask the sentences ###
-    parser.add_argument('-fold', type=int, default=2)  ### Number of folds in cross validation ###
+    parser.add_argument('-fold', type=int, default=5)  ### Number of folds in cross validation ###
     parser.add_argument('-layer_1', type=str, default='conv')  ### Layer 1 types: conv, gru, lstm ###
     parser.add_argument('-layer_2', type=str, default='gru')  ### Layer 1 types: conv, gru, lstm ###
-    parser.add_argument('-cross', action='store_true')  ### Activate Cross Validation ###
+    parser.add_argument('-cross', action='store_false')  ### Activate Cross Validation ###
     parser.add_argument('-train_data', type=str,
                         default='multi_classes')  ### Select train data, only with write_data TRUEE ###
     parser.add_argument('-test_data', type=str,
-                        default='multi_classes')  ### Select test data, only with write_data TRUE ###
-    parser.add_argument('-layer_1_include', action='store_false')  ### Exclude layer 1 ###
+                        default='multi_cladsses')  ### Select test data, only with write_data TRUE ###
+    parser.add_argument('-layer_1_include', action='store_true')  ### Exclude layer 1 ###
     parser.add_argument('-pool_mean', action='store_false')  ### Mean pool the attention, otherwise max-pool ###
     parser.add_argument('-num_attention', type=int, default=100)  ### Number of attention vectors ###
     parser.add_argument('-attention_prob', type=float, default=0.2)  ### Dropout probability ###
@@ -876,7 +876,7 @@ if __name__ == '__main__':
     parser.add_argument('-embed_dimensions', type=int,
                         default=128)  ### Embedding dimension of tweets for self-learned embeddings###
     parser.add_argument('-human_attention',
-                        action='store_false')  ### Add a human attention mechanism to training, refer to PAPER ###
+                        action='store_true')  ### Add a human attention mechanism to training, refer to PAPER ###
     parser.add_argument('-n_class', type=int, default=2)  ### REDUNDANT ###
     parser.add_argument('-early_stopping_threshold', type=int, default=500)  ### Early stopping threshold ###
     parser.add_argument('-write_data', action='store_false')  ### Preprocess the data and write to ./data/ ###
