@@ -12,7 +12,7 @@ python training.py
 
 ### FLAGS
 
-    parser.add_argument('-peephole_1', action='store_true')  ### Peephole forward pass first RNN  ###
+parser.add_argument('-peephole_1', action='store_true')  ### Peephole forward pass first RNN  ###
 
     parser.add_argument('-peephole_2', action='store_true')  ### Peephole backward pass first RNN ###
 
