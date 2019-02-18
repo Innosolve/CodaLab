@@ -2,7 +2,7 @@
   
 ### Author: Koen Vernooij
 
-These instructions will get you a copy of the project up and urinning on your local machine for testing purposes.
+These instructions will get you a copy of the project up and running on your local machine for testing purposes.
 
 ### FLAGS
 
@@ -17,8 +17,12 @@ python training.py
 
 In order to run the Task b) model run.
 
+```
 python training.py -
+```
 
 In order to run the Task b) model run.
 
-
+```
+python training.py -
+```
