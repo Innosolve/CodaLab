@@ -2,6 +2,10 @@
   
 ### Author: Koen Vernooij
 
+This is the code for the three models used in the 2019 SemEval competition for Task 6, Offenseval (refer to http://alt.qcri.org/semeval2019/index.php?id=tasks).
+
+## Instructions
+
 These instructions will get you a copy of the project up and running on your local machine for testing purposes.
 
 ### FLAGS
