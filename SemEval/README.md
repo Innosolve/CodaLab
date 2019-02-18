@@ -21,7 +21,7 @@ The embedding used were the glove embeddings, which can be found at http://nlp.s
 
 Both data sets need to be put in a data folder before running.
 
-### Command.
+### Commands
 
 In order to run the Task a) model run.
 
@@ -35,7 +35,7 @@ In order to run the Task b) model run.
 python training.py -layer_2 gru -tasks b -remove_stop -formal_filter -attention -mask
 ```
 
-In order to run the Task b) model run.
+In order to run the Task c) model run.
 
 ```
 python training.py -fund_embed_dim 50 -decay_rate 0.85 -learning_rate 1e-4 -tasks c -remove_stop -num_attention 10 -pool_mean
