@@ -14,6 +14,7 @@ In order to run the Task a) model run.
 
 ```
 python training.py
+```
 
 In order to run the Task b) model run.
 
