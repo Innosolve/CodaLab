@@ -8,6 +8,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 The options for FLAGS have been specified at the bottom of the `training.py` file.
 
+### Data
+
+The training data is on https://competitions.codalab.org/competitions/20011.
+Before execution training the '@USER' mentions need to be removed and the punctuation has to be surrounded by spaces.
+
+The embedding used were the glove embeddings, which can be found at http://nlp.stanford.edu/data/glove.twitter.27B.zip.
+
+Both data sets need to be put in a data folder before running.
+
 ### Command.
 
 In order to run the Task a) model run.
