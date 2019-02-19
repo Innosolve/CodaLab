@@ -32,7 +32,7 @@ python training.py -peephole_3 -peephole_4
 In order to run the Task b) model run.
 
 ```
-python training.py -layer_2 gru -tasks b -remove_stop -formal_filter -attention -mask -train_data multi_classes_b_clean -test_data multi_classes_b_clean
+python training.py -layer_2 gru -tasks b -remove_stop -formal_filter -attention -mask -train_data multi_classes_b -test_data multi_classes_b
 ```
 
 In order to run the Task c) model run.
