@@ -860,7 +860,7 @@ if __name__ == '__main__':
     parser.add_argument('-train_data', type=str,
                         default='multi_classes')  ### Select train data, only with write_data TRUEE ###
     parser.add_argument('-test_data', type=str,
-                        default='multi_cladsses')  ### Select test data, only with write_data TRUE ###
+                        default='multi_classes')  ### Select test data, only with write_data TRUE ###
     parser.add_argument('-layer_1_include', action='store_true')  ### Exclude layer 1 ###
     parser.add_argument('-pool_mean', action='store_false')  ### Mean pool the attention, otherwise max-pool ###
     parser.add_argument('-num_attention', type=int, default=100)  ### Number of attention vectors ###
